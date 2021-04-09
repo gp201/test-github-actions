@@ -3,12 +3,12 @@
     "email": "a@a.com",
     "vacations": [
       {
-        "start": "dd/mm/yyyy",
-        "end": "dd/mm/yyyy"
+        "start": "YYYY-MM-DD",
+        "end": "YYYY-MM-DD"
       },
       {
-        "start": "dd/mm/yyyy",
-        "end": "dd/mm/yyyy"
+        "start": "YYYY-MM-DD",
+        "end": "YYYY-MM-DD"
       }
     ]
   }
