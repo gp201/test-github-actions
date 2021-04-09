@@ -1,0 +1,15 @@
+{
+  "gp201": {
+    "email": "a@a.com",
+    "vacations": [
+      {
+        "start": "yyyy-mm-dd",
+        "end": "yyyy-mm-dd"
+      },
+      {
+        "start": "yyyy-mm-dd",
+        "end": "yyyy-mm-dd"
+      }
+    ]
+  }
+}
