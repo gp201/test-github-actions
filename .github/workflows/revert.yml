@@ -11,7 +11,7 @@ jobs:
         env:
           TEMP_WIKI_FOLDER: temp_wiki
         run: |
-          git clone https://github.com/gp201/test-github-actions.wiki.git ${{ env.TEMP_WIKI_FOLDER }}
+          git clone https://github.com//${{ github.repository }}.wiki.git ${{ env.TEMP_WIKI_FOLDER }}
           cd ${{ env.TEMP_WIKI_FOLDER }}
           git config --global user.name '${{ github.event.head_commit.author.username }}'
           git config --global user.email '${{ github.event.head_commit.author.username }}@users.noreply.github.com'
