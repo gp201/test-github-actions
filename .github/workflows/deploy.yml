@@ -18,7 +18,7 @@ jobs:
       env:
         TEMP_WIKI_FOLDER: temp_wiki
       run: |
-        git clone https://github.com//${{ github.repository }}.wiki.git ${{ env.TEMP_WIKI_FOLDER }}
+        git clone https://github.com/${{ github.repository }}.wiki.git ${{ env.TEMP_WIKI_FOLDER }}
         rsync -av --delete wiki/ ${{ env.TEMP_WIKI_FOLDER }}/ --exclude .git
         cd ${{ env.TEMP_WIKI_FOLDER }}
         echo "$GITHUB_CONTEXT"
