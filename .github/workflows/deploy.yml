@@ -32,5 +32,4 @@ jobs:
         git commit -F commit_msg.txt
         git push
         git checkout backup
-        git reset --hard master
         git push -f origin backup
