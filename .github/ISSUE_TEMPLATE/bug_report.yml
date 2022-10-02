@@ -14,9 +14,3 @@ body:
       options:
       - label: I have searched the existing issues
         required: true
-  - type: textarea
-    attributes:
-      label: Describe the bug
-      description: A concise description of what you're experiencing.
-    validations:
-      required: true
