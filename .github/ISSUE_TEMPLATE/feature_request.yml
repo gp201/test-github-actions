@@ -33,3 +33,18 @@ body:
       value: "Proposed solution"
     validations:
       required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Describe alternatives you've considered
+      description: A clear and concise description of any alternative solutions or features you've considered.
+      placeholder: I have also considered ...
+      value: "Alternatives"
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: |
+        Add any other context or screenshots about the feature request here.
