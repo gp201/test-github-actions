@@ -58,8 +58,8 @@ body:
             - **Browser**:
             - **Browser-version**:
         render: markdown
-      validations:
-        required: false
+        validations:
+            required: false
     - type: textarea
       attributes:
         label: Additional context
