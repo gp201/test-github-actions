@@ -57,7 +57,6 @@ body:
         - **OS**:
         - **Browser**:
         - **Browser-version**:
-      render: markdown
     validations:
       required: false
   - type: textarea
