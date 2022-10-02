@@ -6,9 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to propose a new feature for the Oppia project.
-        Before filing a new issue, please do a quick search to check that it hasn't
-        already been filed on the [issue tracker](https://github.com/oppia/oppia/issues).
+        Thanks for taking the time to fill out this bug report!
   - type: input
     id: contact
     attributes:
