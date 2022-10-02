@@ -49,14 +49,14 @@ body:
   - type: textarea
     attributes:
       label: Desktop Environment
-        description: |
-          - **OS**: [e.g. iOS]
-          - **Browser**: [e.g. chrome, safari]
-          - **Browser-version**: [e.g. 22]
-        value: |
-          - **OS**:
-          - **Browser**:
-          - **Browser-version**:
-        render: markdown
-        validations:
-            required: false
+      description: |
+        - **OS**: [e.g. iOS]
+        - **Browser**: [e.g. chrome, safari]
+        - **Browser-version**: [e.g. 22]
+      value: |
+        - **OS**:
+        - **Browser**:
+        - **Browser-version**:
+      render: markdown
+      validations:
+        required: false
