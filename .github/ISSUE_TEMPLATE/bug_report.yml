@@ -54,9 +54,24 @@ body:
         - **Browser**: [e.g. chrome, safari]
         - **Browser-version**: [e.g. 22]
       value: |
-        - **OS**:
-        - **Browser**:
-        - **Browser-version**:
+        - OS: 
+        - Browser: 
+        - Browser-version: 
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Smartphone Environment
+      description: |
+        - **Device**: [e.g. iphone6]
+        - **OS**: [e.g. iOS]
+        - **Browser**: [e.g. chrome, safari]
+        - **Browser-version**: [e.g. 22]
+      value: |
+        - Device:
+        - OS: 
+        - Browser: 
+        - Browser-version: 
     validations:
       required: false
   - type: textarea
