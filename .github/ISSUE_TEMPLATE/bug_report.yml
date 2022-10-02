@@ -1,7 +1,7 @@
-name: 🐞 Bug
-description: File a bug/issue
-title: "[BUG] <title>"
-labels: [Bug, Needs Triage]
+name: Bug report
+description: Create a report to help us improve
+title: "[BUG]: "
+labels: [triage needed, bug]
 body:
   - type: markdown
     attributes:
