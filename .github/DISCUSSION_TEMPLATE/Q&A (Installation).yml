@@ -27,10 +27,3 @@ body:
     render: bash
   validations:
     required: true
-- type: textarea
-    id: steps
-    attributes:
-      label: Approaches already used to resolve the issue
-      description: "What appoaches have you tried to resolve the above isssue?"
-    validations:
-      required: false
