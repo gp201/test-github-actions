@@ -20,7 +20,7 @@ body:
   validations:
     required: false
 - type: textarea
-  id: error log
+  id: error
   attributes:
     label: Error Log
     description: "Please copy and paste the error log"
