@@ -20,10 +20,11 @@ body:
   validations:
     required: false
 - type: textarea
-    id: Error log
-    attributes:
-      label: Error log
-      description: "Please copy & paste the error log below"
-    validations:
-      required: true
+  id: improvements
+  attributes:
+    label: Top 3 improvements
+    description: "What are the top 3 improvements we could make to this project?"
+    render: bash
+  validations:
+    required: true
  
