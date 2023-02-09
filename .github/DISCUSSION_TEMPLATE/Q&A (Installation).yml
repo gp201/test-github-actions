@@ -12,3 +12,11 @@ body:
     description: "What is the RAM size?"
   validations:
     required: true
+body:
+- type: textarea
+  id: steps
+  attributes:
+    label: Steps followed
+    description: "What are the top 3 improvements we could make to this project?"
+  validations:
+    required: true
