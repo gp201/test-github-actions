@@ -19,3 +19,11 @@ body:
     description: "If you encountered this error while following a wiki page, provide a link to the page and specify which step failed. Otherwise, list what steps caused the error. These should be detailed enough for someone else to follow them."
   validations:
     required: false
+- type: textarea
+    id: Error log
+    attributes:
+      label: Error log
+      description: "Please copy & paste the error log below"
+      render: bash
+    validations:
+      required: true
