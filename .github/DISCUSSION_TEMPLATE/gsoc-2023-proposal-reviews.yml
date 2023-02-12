@@ -5,7 +5,7 @@ body:
   attributes:
     label: I confirm that I set the sharing options of the document to “anyone with the link can comment”.
     options:
-        - label: Yes
+        - label: "Yes"
           required: true
 - type: dropdown
   id: review-section
