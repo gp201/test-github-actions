@@ -3,7 +3,10 @@ body:
 - type: checkboxes
   id: sharing
   attributes:
-    label: I confirm that I set the sharing options of the document to “anyone with the link can comment”
+    label: I confirm that I set the sharing options of the document to “anyone with the link can comment”.
+    options:
+        - label: Yes
+          required: true
 - type: dropdown
   id: review-section
   attributes:
