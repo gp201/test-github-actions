@@ -1,0 +1,19 @@
+name: CI Flake report
+description: Create a report to help us improve
+title: "[Flake]: "
+labels: [triage needed, bug]
+body:
+  - type: dropdown
+    id: test_type
+    attributes:
+      label: CI Test
+      description: In which CI test did this Flake occur?
+      options:
+        - Frontend
+        - E2E
+        - Acceptance
+        - Backend
+        - Backend associated test file check
+        - Lighthouse CI performance
+        - Lighthouse CI accessibility tests
+  
