@@ -40,7 +40,7 @@ body:
       value: "A bug happened!"
     validations:
       required: true
-   - type: input
+  - type: input
     attributes:
       label: Debuggin document link
       description: Please paste the Debug Doc sharing link here. Make sure that the sharing settings are set to "Anyone with the link can comment".
