@@ -90,9 +90,7 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: Tips for developers
-      description: Please leave this section as-is.
-      value: |
+      label: |
         Before tackling the bug, please use `git bisect` (see https://git-scm.com/docs/git-bisect)
         to investigate which PR caused it (you only need to go back as far as
         commit https://github.com/oppia/oppia/commits/9a334e9).
@@ -104,5 +102,6 @@ body:
         https://github.com/oppia/oppia/wiki/Contributing-code-to-Oppia#choosing-a-good-first-issue
         and https://github.com/oppia/oppia/wiki/Contributing-code-to-Oppia#setting-things-up
         before claiming it. Thanks!
+      description: Please leave this section as-is.
     validations:
       required: true
